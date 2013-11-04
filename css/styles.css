@@ -27,6 +27,19 @@
 	font-weight: bold;
 	}
 	
+	nav {
+		float: left;
+		width: 960px;
+		}
+	
+nav li {
+	float: left;
+	margin: 20px;
+	padding: 30px;
+	background: green;
+	list-style: none;
+	}
+	
 /* Gallery */
 
 section {
