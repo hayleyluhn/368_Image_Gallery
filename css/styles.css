@@ -1,1 +1,37 @@
-/* Stylesheet */
+/* Global and Structure */
+
+
+.home {
+	background: pink;
+	}
+	
+.gallery {
+	background: teal;
+	}
+	
+.container {
+	overflow: auto;
+	background: black;
+	margin: 0 auto;
+	width: 960px;
+	}
+/* Nav */
+
+.home #home {
+	background: red;
+	font-weight: bold;
+	}
+
+.gallery #gallery {
+	background: red;
+	font-weight: bold;
+	}
+	
+/* Gallery */
+
+section {
+	float: left;
+	margin: 20px;
+	background: aliceblue;
+	border: 10px solid white;
+	}
