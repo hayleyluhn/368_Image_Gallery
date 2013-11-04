@@ -30,8 +30,22 @@
 /* Gallery */
 
 section {
+	position: relative;
+	
 	float: left;
 	margin: 20px;
 	background: aliceblue;
 	border: 10px solid white;
+	}
+	
+
+h3 {
+	color: white;
+}
+
+section h3 {
+	position: absolute;
+	top: 0;
+	right: -50px; 
+	background: magenta;
 	}
